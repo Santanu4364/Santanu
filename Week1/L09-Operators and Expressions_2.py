@@ -3,7 +3,7 @@
 #2. Comparison Operators
 #3. Logical Operators
 
-#Arithmetic Operators(+, -, *, /, %, //, **)
+#1Arithmetic Operators(+, -, *, /, %, //, **)
 
 print('addition:', 3 + 2)
 print('sunstraction:', 3 - 2)
@@ -31,7 +31,7 @@ print(5==5)
 # == is used to check equality
 print(5!=5)
 
-#2. Logical Operators (and, or, not)
+#3. Logical Operators (and, or, not)
 
 #and operator
 #and operator returns True if both the operands are True
