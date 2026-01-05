@@ -47,8 +47,8 @@ count *= 2
 print(count)  # Output: 20
 
 
-#using of inoperator
-print("using of in operator")
+#using of in operator
+print("use of in operator")
 
 print('alpha' in 'A variable namr can only contain alpha-numeric charachters and underscores')
 print('alpha' in 'A variable name must start with a letter or the underscore character')
