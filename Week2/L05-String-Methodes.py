@@ -1,1 +1,2 @@
-print(x.lower(x))  # type: ignore # Output: true
+x = "HELLO"
+print(x.lower())
