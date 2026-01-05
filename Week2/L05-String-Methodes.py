@@ -30,3 +30,20 @@ print(x.endswith('n'))
 print(x.endswith('N'))   
 x="Santanu Mandal"
 print(x.replace("Mandal","Das"))
+
+print("****** startswith")
+x="hello world"
+print(x.startswith('h'))  # Output: True
+print(x.startswith('H'))  # Output: False
+
+print("****endswith")
+print(x.endswith('d'))  # Output: True
+print(x.endswith("D"))  # Output: False
+
+print("*********Count")
+x="santanu mandal is a good student"
+print(x.count('a'))  # Output: 4
+print("****index")
+print(x.index('m'))  # Output: 8
+print("*Replace")
+print(x.replace('santanu','SANTANU'))
