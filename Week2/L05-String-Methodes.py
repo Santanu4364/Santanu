@@ -12,6 +12,17 @@ x="123"
 y="123abc"
 print(x.isdigit())
 print(y.isdigit())
+print("**********isalpha")
+z="abc"
+print(z.isalpha())
+print(y.isalpha())
+print(y.isalnum())
+print("************strip")
+x=("*********santanu*******")
+print(x.strip('*'))
+print(x.lstrip('*'))
+print(x.rstrip('*'))
+
 x="python"
 print(x.startswith('P'))
 print(x.startswith('p'))
