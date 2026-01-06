@@ -14,7 +14,9 @@ print(alpha[(i+3)%26])  # Output: c
 #so using modulus operator we can wrap around the index
 print("example problem")
 s="india"
-#i expext to output tvebstie
-t=''
-
-print(alpha[(((alpha.index(s[0]))+1)%26)])
+#i expext to output "joejb"
+#so each letter is shifted by 1 position
+i=0  #initialize index
+k=1
+t=s[0]
+print(t)
