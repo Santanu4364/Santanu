@@ -16,7 +16,15 @@ print("example problem")
 s="india"
 #i expext to output "joejb"
 #so each letter is shifted by 1 position
-i=0  #initialize index
-k=1
-t=s[0]
-print(t)
+i=0  #index of the letter in string "india"
+k=1   #number of positions to shift
+print(alpha.index(s[i]))  # Output: 8
+t=''
+t=t+(alpha[(alpha.index(s[i])+k)%26])
+t=t+(alpha[(alpha.index(s[i+1])+k)%26])
+t=t+(alpha[(alpha.index(s[i+2])+k)%26])
+t=t+(alpha[(alpha.index(s[i+3])+k)%26])
+t=t+(alpha[(alpha.index(s[i+4])+k)%26])
+print(t)  # Output: joejb
+  # Output: 9
+#here k is the number of positions to shift
