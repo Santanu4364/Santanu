@@ -15,4 +15,3 @@ if(num%5==0):
         print("last digit is 5")
 else:
     print("number is from other category")
-
