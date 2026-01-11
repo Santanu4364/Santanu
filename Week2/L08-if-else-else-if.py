@@ -31,7 +31,7 @@ else:
 
 #check grade based on marks using else if
 marks=int(input('enter your marks: '))
-if (marks>0 and marks<100):
+if (marks>=0 and marks<=100):
     if marks>=90:
         print("Grade A")
     elif marks>=80:
@@ -42,3 +42,26 @@ if (marks>0 and marks<100):
         print("Grade D")
     else:
         print("Grade E")
+else:
+    print("Invalid input")
+
+#Convert the given flowchart into a Python code
+
+ print('travel from city A to city B')
+ time = int(input('enter time:'))
+ longer = int(input('define longer:'))
+ if time >= longer :
+     price = int(input('Enter Price:'))
+     higher = int(input('define higher: '))
+     if price >= higher :
+         print('train')
+     else:
+         print('coach')
+else:
+    price = int(input('enter price: '))
+    higher = int(input('define higher: '))
+    if(price >= higher):
+        print('Daytime flight')
+    else:
+        print('Red ryr flight')
+print('Arrive city B')
