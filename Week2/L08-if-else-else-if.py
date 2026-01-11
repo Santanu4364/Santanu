@@ -47,21 +47,26 @@ else:
 
 #Convert the given flowchart into a Python code
 
- print('travel from city A to city B')
- time = int(input('enter time:'))
- longer = int(input('define longer:'))
- if time >= longer :
-     price = int(input('Enter Price:'))
-     higher = int(input('define higher: '))
-     if price >= higher :
-         print('train')
-     else:
-         print('coach')
+print('travel from city A to city B')
+
+time = int(input('enter time: '))
+longer = int(input('define longer: '))
+
+if time >= longer:
+    price = int(input('Enter Price: '))
+    higher = int(input('define higher: '))
+    
+    if price >= higher:
+        print('train')
+    else:
+        print('coach')
 else:
     price = int(input('enter price: '))
     higher = int(input('define higher: '))
-    if(price >= higher):
+    
+    if price >= higher:
         print('Daytime flight')
     else:
-        print('Red ryr flight')
+        print('Red eye flight')
+
 print('Arrive city B')
