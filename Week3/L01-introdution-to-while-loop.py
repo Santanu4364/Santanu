@@ -1,5 +1,5 @@
 # make a second cahnce using if else loop
-'''print("when india got independance?: ")
+print("when india got independance?: ")
 year=int(input())
 if year==1947:
     print("Hip Hip Hurrey. You get it!")
@@ -11,7 +11,7 @@ else:
     if year==1947:
         print("you get it")
     else:
-        print("you are wrong again...")'''
+        print("you are wrong again...")
 
 # lets write a code that allow as many attempt as the user want.
 # The code wil end when it will get the corrwct answer.
