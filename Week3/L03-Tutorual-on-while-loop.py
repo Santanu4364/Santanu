@@ -14,8 +14,7 @@ while(num>0):
     rev=rev*10+rem
     num=num//10
 print("the reverse of the number is: ", rev)
-<<<<<<< HEAD
-=======
+
 
 #reverse of a negative number with sign
 n=int(input("number: "))
@@ -45,4 +44,3 @@ if(rev==n):
     print("palindrom")
 else:
     print("not a palindrom")
->>>>>>> 98d0b4569080dd73be6cc8ba26b976be883ba0c2
