@@ -11,4 +11,5 @@ for i in range(n):
     if i%2==0:
         print(i, "Even")
     else:
-        print(i, "Odd")    
+        print(i, "Odd")
+
