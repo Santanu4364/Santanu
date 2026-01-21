@@ -1,6 +1,6 @@
-#addition of first 10 integer number using for loop
+#addition of first 20 integer number using for loop
 ans=0
-for i in range (10):
+for i in range (20):
     ans=ans+i
 print(ans)
 
