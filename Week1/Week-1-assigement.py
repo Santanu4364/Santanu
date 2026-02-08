@@ -6,5 +6,4 @@ print(1)
 print(2)
 print(13 % 5 //  2 * 30 ** 5)
 '''
-p='word'
-print(p[-1] + p[len(p)])
+print(20 * 100.0 // 11 % 5)
