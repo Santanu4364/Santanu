@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 s = 'good'
 print(s*5)  # Output: goodgoodgoodgoodgood
 print(s[0]*5)  # Output: ggggg
