@@ -6,4 +6,4 @@ print(1)
 print(2)
 print(13 % 5 //  2 * 30 ** 5)
 '''
-print(20 * 100.0 // 11 % 5)
+print(5 and 2 or "2")
