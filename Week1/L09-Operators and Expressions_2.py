@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #operatoes are divided into 3 major categories
 #1. Arithmetic Operators
 #2. Comparison Operators
