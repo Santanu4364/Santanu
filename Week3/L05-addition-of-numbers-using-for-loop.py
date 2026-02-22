@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #addition of first 20 integer number using for loop
 ans=0
 for i in range (20):
