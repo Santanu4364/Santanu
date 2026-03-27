@@ -1,0 +1,11 @@
+a=10
+print(a)
+print("hello world", "hello india", 10,20)
+print("*******")
+print("******")
+print("*****")
+print("****")
+print("***")
+print("**")
+print("*")
+print(52)
